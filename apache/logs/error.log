@@ -1,0 +1,43 @@
+[Sun Nov 21 20:05:07.499613 2021] [ssl:warn] [pid 13868:tid 504] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 21 20:05:07.547504 2021] [ssl:warn] [pid 13868:tid 504] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 21 20:05:07.616839 2021] [mpm_winnt:notice] [pid 13868:tid 504] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Sun Nov 21 20:05:07.616839 2021] [mpm_winnt:notice] [pid 13868:tid 504] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Nov 21 20:05:07.616839 2021] [core:notice] [pid 13868:tid 504] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Nov 21 20:05:07.622741 2021] [mpm_winnt:notice] [pid 13868:tid 504] AH00418: Parent: Created child process 38060
+[Sun Nov 21 20:05:08.094320 2021] [ssl:warn] [pid 38060:tid 588] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 21 20:05:08.138392 2021] [ssl:warn] [pid 38060:tid 588] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 21 20:05:08.164274 2021] [mpm_winnt:notice] [pid 38060:tid 588] AH00354: Child: Starting 150 worker threads.
+[Sun Nov 21 20:05:30.089956 2021] [ssl:warn] [pid 22928:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 21 20:05:30.135814 2021] [core:warn] [pid 22928:tid 576] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 21 20:05:30.137777 2021] [ssl:warn] [pid 22928:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 21 20:05:30.161781 2021] [mpm_winnt:notice] [pid 22928:tid 576] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Sun Nov 21 20:05:30.162779 2021] [mpm_winnt:notice] [pid 22928:tid 576] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Nov 21 20:05:30.162779 2021] [core:notice] [pid 22928:tid 576] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Nov 21 20:05:30.165737 2021] [mpm_winnt:notice] [pid 22928:tid 576] AH00418: Parent: Created child process 49972
+[Sun Nov 21 20:05:30.615799 2021] [ssl:warn] [pid 49972:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 21 20:05:30.659242 2021] [ssl:warn] [pid 49972:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 21 20:05:30.685209 2021] [mpm_winnt:notice] [pid 49972:tid 584] AH00354: Child: Starting 150 worker threads.
+[Sun Nov 21 20:35:01.541207 2021] [ssl:warn] [pid 39868:tid 560] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 21 20:35:01.585770 2021] [core:warn] [pid 39868:tid 560] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 21 20:35:01.587763 2021] [ssl:warn] [pid 39868:tid 560] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: C:\\xampp\\php\\ext\\sodium (The specified module could not be found.), C:\\xampp\\php\\ext\\php_sodium.dll (The specified module could not be found.)) in Unknown on line 0
+[Sun Nov 21 20:35:01.740844 2021] [mpm_winnt:notice] [pid 39868:tid 560] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Sun Nov 21 20:35:01.740844 2021] [mpm_winnt:notice] [pid 39868:tid 560] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Nov 21 20:35:01.740844 2021] [core:notice] [pid 39868:tid 560] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Nov 21 20:35:01.744833 2021] [mpm_winnt:notice] [pid 39868:tid 560] AH00418: Parent: Created child process 24768
+[Sun Nov 21 20:35:02.187083 2021] [ssl:warn] [pid 24768:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 21 20:35:02.231274 2021] [ssl:warn] [pid 24768:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: C:\\xampp\\php\\ext\\sodium (The specified module could not be found.), C:\\xampp\\php\\ext\\php_sodium.dll (The specified module could not be found.)) in Unknown on line 0
+[Sun Nov 21 20:35:02.265613 2021] [mpm_winnt:notice] [pid 24768:tid 584] AH00354: Child: Starting 150 worker threads.
+[Sun Nov 21 20:35:46.784878 2021] [ssl:warn] [pid 55276:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 21 20:35:46.828937 2021] [core:warn] [pid 55276:tid 576] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 21 20:35:46.831923 2021] [ssl:warn] [pid 55276:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: C:\\xampp\\php\\ext\\sodium (The specified module could not be found.), C:\\xampp\\php\\ext\\php_sodium.dll (The specified module could not be found.)) in Unknown on line 0
+[Sun Nov 21 20:35:46.868972 2021] [mpm_winnt:notice] [pid 55276:tid 576] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Sun Nov 21 20:35:46.868972 2021] [mpm_winnt:notice] [pid 55276:tid 576] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Nov 21 20:35:46.868972 2021] [core:notice] [pid 55276:tid 576] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Nov 21 20:35:46.872929 2021] [mpm_winnt:notice] [pid 55276:tid 576] AH00418: Parent: Created child process 30988
+[Sun Nov 21 20:35:47.325263 2021] [ssl:warn] [pid 30988:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 21 20:35:47.369178 2021] [ssl:warn] [pid 30988:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: C:\\xampp\\php\\ext\\sodium (The specified module could not be found.), C:\\xampp\\php\\ext\\php_sodium.dll (The specified module could not be found.)) in Unknown on line 0
+[Sun Nov 21 20:35:47.401933 2021] [mpm_winnt:notice] [pid 30988:tid 584] AH00354: Child: Starting 150 worker threads.

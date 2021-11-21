@@ -1,0 +1,275 @@
+<?php
+// This file is part of Moodle - https://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
+
+/**
+ * Strings for component 'countries', language 'vi', version '3.11'.
+ *
+ * @package     countries
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['AD'] = 'Công quốc Andorra';
+$string['AE'] = 'Các Tiểu Vương quốc Ả Rập Thống nhất';
+$string['AF'] = 'Afghanistan';
+$string['AG'] = 'Quốc đảo Antigua and Barbuda';
+$string['AI'] = 'Đảo Anguilla';
+$string['AL'] = 'Cộng hòa Albania';
+$string['AM'] = 'Cộng hòa Armenia';
+$string['AO'] = 'Ăng gô la';
+$string['AQ'] = 'Châu Nam Cực';
+$string['AR'] = 'Cộng hòa Argentina';
+$string['AS'] = 'Samoa thuộc Mỹ';
+$string['AT'] = 'Áo';
+$string['AU'] = 'Australia';
+$string['AW'] = 'Đảo Aruba';
+$string['AX'] = 'Quần đảo Ai Len';
+$string['AZ'] = 'Cộng hòa Azerbaijan';
+$string['BA'] = 'Bosnia và  Herzegovina';
+$string['BB'] = 'Đảo Barbados';
+$string['BD'] = 'Cộng hòa nhân dân Bangladesh';
+$string['BE'] = 'Bỉ';
+$string['BF'] = 'Burkina Faso';
+$string['BG'] = 'Bun ga ri';
+$string['BH'] = 'Vương quốc Bahrain';
+$string['BI'] = 'Cộng hòa Burundi';
+$string['BJ'] = 'Cộng hòa Benin';
+$string['BL'] = 'Saint Barthélemy';
+$string['BM'] = 'Bermuda';
+$string['BN'] = 'Nhà nước Brunei Darussalam';
+$string['BQ'] = 'Caribe Hà Lan';
+$string['BR'] = 'Bra xin';
+$string['BS'] = 'Quần đảo Bahamas';
+$string['BT'] = 'Vương quốc Bhutan';
+$string['BV'] = 'Đảo Bouvet';
+$string['BW'] = 'Cộng hòa Botswana';
+$string['BY'] = 'Cộng hòa Belarus';
+$string['BZ'] = 'Belize';
+$string['CA'] = 'Ca na đa';
+$string['CC'] = 'Quần đảo Cocos (Keeling)';
+$string['CD'] = 'Cộng hoà Dân chủ Công gô';
+$string['CF'] = 'Cộng hoà Trung Phi';
+$string['CG'] = 'Cộng hòa dân chủ Congo';
+$string['CH'] = 'Thụy Sĩ';
+$string['CI'] = 'Bờ Biển Ngà';
+$string['CK'] = 'Quần đảo Cook';
+$string['CL'] = 'Chi Lê';
+$string['CM'] = 'Cộng hòa Cameroon';
+$string['CN'] = 'Trung Quốc';
+$string['CO'] = 'Cộng hòa Colombia';
+$string['CR'] = 'Cộng hòa Costa Rica';
+$string['CU'] = 'Cu Ba';
+$string['CV'] = 'Cộng hòa Cabo Verde';
+$string['CW'] = 'Curaçao';
+$string['CX'] = 'Đảo Giáng sinh';
+$string['CY'] = 'Cộng hòa Síp';
+$string['CZ'] = 'Cộng Hoà Séc';
+$string['DE'] = 'Đức';
+$string['DJ'] = 'Cộng hòa Djibouti';
+$string['DK'] = 'Đan Mạch';
+$string['DM'] = 'Đảo Dominica';
+$string['DO'] = 'Cộng Hoà Dominican';
+$string['DZ'] = 'Cộng hòa Dân chủ Nhân dân Algeria';
+$string['EC'] = 'Cộng hòa Ecuador';
+$string['EE'] = 'Cộng hòa Estonia';
+$string['EG'] = 'Ai Cập';
+$string['EH'] = 'Tây Sahara';
+$string['ER'] = 'Nhà nước Eritrea';
+$string['ES'] = 'Tây Ban Nha';
+$string['ET'] = 'Cộng hòa Dân chủ Liên bang Ethiopia';
+$string['FI'] = 'Phần Lan';
+$string['FJ'] = 'Cộng hòa Fijji';
+$string['FK'] = 'Quần đảo Falkland (Malvinas)';
+$string['FM'] = 'Liên bang Micronesia';
+$string['FO'] = 'Quần đảo Faroe';
+$string['FR'] = 'Pháp';
+$string['GA'] = 'Cộng hòa Gabon';
+$string['GB'] = 'Vương Quốc Anh';
+$string['GD'] = 'Đảo Grenada';
+$string['GE'] = 'Georgia';
+$string['GF'] = 'Guiana Pháp';
+$string['GG'] = 'Guernsey';
+$string['GH'] = 'Cộng hòa Ghana';
+$string['GI'] = 'Gibraltar';
+$string['GL'] = 'Đảo Greenland';
+$string['GM'] = 'Cộng hòa Gambia';
+$string['GN'] = 'Cộng hòa Guinea';
+$string['GP'] = 'Đảo Guadeloupe';
+$string['GQ'] = 'Guinea Xích đạo';
+$string['GR'] = 'Hi Lạp';
+$string['GS'] = 'Nam Georgia và Quần đảo South Sandwich';
+$string['GT'] = 'Cộng hòa Guatemala';
+$string['GU'] = 'Lãnh thổ Guam';
+$string['GW'] = 'Cộng hòa Guinea-Bissau';
+$string['GY'] = 'Cộng hoà Hợp tác Guyana';
+$string['HK'] = 'Hồng Công';
+$string['HM'] = 'Quần đảo Heard và Mc Donald';
+$string['HN'] = 'Cộng hoafa Honduras';
+$string['HR'] = 'Cộng hòa Croatia';
+$string['HT'] = 'Cộng hòa Haiti';
+$string['HU'] = 'Hung ga ri';
+$string['ID'] = 'Cộng hòa Indonesia';
+$string['IE'] = 'Ai Len';
+$string['IL'] = 'Nhà nước Israel';
+$string['IM'] = 'Isle Of Man';
+$string['IN'] = 'Ấn Độ';
+$string['IO'] = 'Lãnh thổ Anh - Ấn trên biển';
+$string['IQ'] = 'I rắc';
+$string['IR'] = 'I - ran';
+$string['IS'] = 'Iceland';
+$string['IT'] = 'Ý';
+$string['JE'] = 'Jersey';
+$string['JM'] = 'Đảo Jamaica';
+$string['JO'] = 'Vương quốc Jordan';
+$string['JP'] = 'Nhật Bản';
+$string['KE'] = 'Cộng hòa Kenya';
+$string['KG'] = 'Cộng hòa Kyrgyzstan';
+$string['KH'] = 'Căm pu chia';
+$string['KI'] = 'Cộng hòa Kiribati';
+$string['KM'] = 'Liên bang Comoros';
+$string['KN'] = 'Liên bang Saint Kitts và Nevis';
+$string['KP'] = 'Triều Tiên';
+$string['KR'] = 'Hàn Quốc';
+$string['KW'] = 'Kuwait';
+$string['KY'] = 'Quần đảo Cayman';
+$string['KZ'] = 'Ca-dắc-xtan';
+$string['LA'] = 'Lào';
+$string['LB'] = 'Cộng hòa Li - băng';
+$string['LC'] = 'Thịnh vượng chung Saint Lucia';
+$string['LI'] = 'Thân vương quốc Liechtenstein';
+$string['LK'] = 'Cộng hoà Xã hội chủ nghĩa Dân chủ Sri Lanka';
+$string['LR'] = 'Cộng hòa Liberia';
+$string['LS'] = 'Vương quốc Lesotho';
+$string['LT'] = 'Cộng hòa Lithuania';
+$string['LU'] = 'Đại công quốc Luxembourg';
+$string['LV'] = 'Cộng hòa Latvia';
+$string['LY'] = 'Nhà nước Li - bi';
+$string['MA'] = 'Vương quốc Ma - rốc';
+$string['MC'] = 'Công quốc Monaco';
+$string['MD'] = 'Cộng hoà Moldova';
+$string['ME'] = 'Montenegro';
+$string['MF'] = 'Saint Martin';
+$string['MG'] = 'Cộng hòa Madagascar';
+$string['MH'] = 'Quần đảo Marshall';
+$string['MK'] = 'Cộng hòa Bắc Macedonia';
+$string['ML'] = 'Cộng hòa Mali';
+$string['MM'] = 'Miến Điện';
+$string['MN'] = 'Mông cổ';
+$string['MO'] = 'Ma Cao';
+$string['MP'] = 'Quần đảo Northern Mariana';
+$string['MQ'] = 'Đảo Martinique';
+$string['MR'] = 'Cộng hòa Hồi giáo Mô - ri - ta - ni';
+$string['MS'] = 'Lãnh thổ hải ngoại thuộc Anh Montserrat';
+$string['MT'] = 'Cộng hòa Malta';
+$string['MU'] = 'Cộng hòa Mauritius';
+$string['MV'] = 'Cộng hòa Maldives';
+$string['MW'] = 'Cộng hòa Malawi';
+$string['MX'] = 'Mê Hi Cô';
+$string['MY'] = 'Mã Lai';
+$string['MZ'] = 'Cộng hòa Mozambique';
+$string['NA'] = 'Cộng hòa Namibia';
+$string['NC'] = 'Tân Caledonia';
+$string['NE'] = 'Cộng hòa Niger';
+$string['NF'] = 'Đảo Norfolk';
+$string['NG'] = 'Cộng hòa Liên bang Nigeria';
+$string['NI'] = 'Cộng hòa Nicaragua';
+$string['NL'] = 'Hà Lan';
+$string['NO'] = 'Na Uy';
+$string['NP'] = 'Cộng hoà Dân chủ Liên bang Nepal';
+$string['NR'] = 'Cộng hòa Nauru';
+$string['NU'] = 'Đảo Niue';
+$string['NZ'] = 'Tân Tây Lan';
+$string['OM'] = 'Vương quốc Hồi giáo Oman';
+$string['PA'] = 'Cộng hòa Panama';
+$string['PE'] = 'Cộng hòa Peru';
+$string['PF'] = 'Polynésie thuộc Pháp';
+$string['PG'] = 'Nhà nước Độc lập Papua New Guinea';
+$string['PH'] = 'Phi líp pin';
+$string['PK'] = 'Cộng hoà Hồi giáo Pakistan';
+$string['PL'] = 'Ba Lan';
+$string['PM'] = 'Vùng lãnh thổ cộng đồng Saint-Pierre và Miquelon';
+$string['PN'] = 'Quần đảo Pitcairn';
+$string['PR'] = 'Thịnh vượng chung Puerto Rico';
+$string['PS'] = 'Nhà nước Palestine';
+$string['PT'] = 'Bồ Đào Nha';
+$string['PW'] = 'Cộng hòa Palau';
+$string['PY'] = 'Cộng hòa Paraguay';
+$string['QA'] = 'Nhà nước Qatar';
+$string['RE'] = 'Đảo Réunion';
+$string['RO'] = 'Rumani';
+$string['RS'] = 'Serbia';
+$string['RU'] = 'Liên bang Nga';
+$string['RW'] = 'Cộng hòa Ru-an-đa';
+$string['SA'] = 'Saudi Arabia';
+$string['SB'] = 'Quần đảo Solomon';
+$string['SC'] = 'Cộng hòa Seychelles';
+$string['SD'] = 'Cộng hòa Sudan';
+$string['SE'] = 'Thuỵ Điển';
+$string['SG'] = 'Sinh ga po';
+$string['SH'] = 'Đảo Saint Helena, Ascension and Tristan da Cunha';
+$string['SI'] = 'Cộng hòa Slovenia';
+$string['SJ'] = 'Đảo Svalbard và  Jan Mayen';
+$string['SK'] = 'Cộng hòa Slovakia';
+$string['SL'] = 'Cộng hòa Sierra Leone';
+$string['SM'] = 'Cộng hòa San Marino';
+$string['SN'] = 'Cộng hòa Senegal';
+$string['SO'] = 'Cộng hòa Liên bang Somalia';
+$string['SR'] = 'Cộng hòa Suriname';
+$string['SS'] = 'Cộng hòa Nam Sudan';
+$string['ST'] = 'Cộng hòa Dân chủ Sao Tome and Principe';
+$string['SV'] = 'Cộng hòa El Salvador';
+$string['SX'] = 'Lãnh thổ Đảo Sint Maarten';
+$string['SY'] = 'Cộng hòa Ả Rập Syria';
+$string['SZ'] = 'Vương quốc Eswatini';
+$string['TC'] = 'Quần đảo Turks và Caicos';
+$string['TD'] = 'Cộng hòa Chad';
+$string['TF'] = 'Vùng đất phía Nam và châu Nam Cực thuộc Pháp';
+$string['TG'] = 'Cộng hoafa Togo';
+$string['TH'] = 'Thái Lan';
+$string['TJ'] = 'Cộng hòa Tajikistan';
+$string['TK'] = 'Đảo Tokelau';
+$string['TL'] = 'Đông Timor';
+$string['TM'] = 'Tuốc-mê-ni-xtan';
+$string['TN'] = 'Cộng hòa Tunisia';
+$string['TO'] = 'Vương quốc Tonga';
+$string['TR'] = 'Thổ Nhĩ Kì';
+$string['TT'] = 'Cộng hòa Trinidad và Tobago';
+$string['TV'] = 'Quần đảo Ellice';
+$string['TW'] = 'Đài Loan';
+$string['TZ'] = 'Cộng hòa Thống nhất Tanzania';
+$string['UA'] = 'U-crai-na';
+$string['UG'] = 'Cộng hòa Uganda';
+$string['UM'] = 'United States Minor Outlying Islands';
+$string['US'] = 'Mỹ';
+$string['UY'] = 'Cộng hòa Đông Uruguay';
+$string['UZ'] = 'Cộng hòa Uzbekistan';
+$string['VA'] = 'Tòa Thánh';
+$string['VC'] = 'Saint Vincent và Grenadines';
+$string['VE'] = 'Cộng hòa Bolivar Venezuela';
+$string['VG'] = 'Quần đảo Virgin thuộc Anh';
+$string['VI'] = 'Quần đảo Virgin thuộc Mỹ';
+$string['VN'] = 'Việt Nam';
+$string['VU'] = 'Cộng hòa Vanuatu';
+$string['WF'] = 'Lãnh thổ quần đảo Wallis và Futuna[';
+$string['WS'] = 'Nhà nước Độc lập Samoa';
+$string['YE'] = 'Cộng hòa Yemen';
+$string['YT'] = 'Tỉnh Mayotte';
+$string['ZA'] = 'Cộng hòa Nam Phi';
+$string['ZM'] = 'Cộng hòa Zambia';
+$string['ZW'] = 'Cộng hòa Zimbabwe';

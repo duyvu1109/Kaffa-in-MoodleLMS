@@ -1,0 +1,34 @@
+a:40:{s:12:"bufferwrites";s:15:"Bộ đệm ghi";s:17:"bufferwrites_help";s:379:"Kích hoạt hay vô hiệu hóa bộ đệm I/O. Kích hoạt bộ đệm I/O làm các lệnh lưu trữ thành "đệm" thay vì được gửi đi. Bất kỳ hoạt động nào nhận dữ liệu làm cho bộ đệm này được gửi đến kết nối từ xa. Thoát hay đóng kết nối cũng sẽ làm cho dữ liệu bộ đệm đẩy đến kết nối từ xa.";s:9:"clustered";s:31:"Kích hoạt chuỗi máy chủ";s:14:"clustered_help";s:661:"Được dùng nhằm cho phép chức năng đọc một, đa ấn định (read-one, set-multi).
+
+Trường hợp sử dụng dự định là tạo bộ lưu trữ cải thiện cho các thiết lập cân bằng tải. Bộ lưu trữ sẽ lấy từ một máy chủ (thường là localhost), nhưng đặt đến nhiều (tất cả máy chủ trong bể cân bằng tải). Với các bộ đệm có độ đọc cao so với các tỷ lệ được ấn định, nó tiết kiệm đáng kể lưu lượng mạng quá ngưỡng.
+
+Khi thiết lập này được kích hoạt, máy chủ được liệt kê bên trên sẽ được dùng để lấy.";s:15:"clusteredheader";s:16:"Tách máy chủ";s:4:"hash";s:20:"Phương thức hash";s:9:"hash_help";s:190:"Chỉ định thuật toán hashing được dùng cho các khóa mục. Mỗi thuật hash có ưu và nhược riêng. Theo mặc định nếu bạn không biết hoặc không quan tâm.";s:12:"hash_default";s:48:"Mặc định (một lần một thời điểm)";s:8:"hash_md5";s:3:"MD5";s:8:"hash_crc";s:3:"CRC";s:12:"hash_fnv1_64";s:7:"FNV1_64";s:13:"hash_fnv1a_64";s:8:"FNV1A_64";s:12:"hash_fnv1_32";s:7:"FNV1_32";s:13:"hash_fnv1a_32";s:8:"FNV1A_32";s:10:"hash_hsieh";s:5:"Hsieh";s:11:"hash_murmur";s:6:"Murmur";s:8:"isshared";s:12:"Shared cache";s:13:"isshared_help";s:606:"Is your memcached server also being used by other applications?
+
+If the cache is shared by other applications then each key will be deleted individually to ensure that only data owned by this application is purged (leaving external application cache data unchanged). This can result in reduced performance when purging the cache, depending on your server configuration.
+
+If you are running a dedicated cache for this application then the entire cache can safely be flushed without any risk of destroying another application's cache data. This should result in increased performance when purging the cache.
+";s:10:"pluginname";s:9:"Memcached";s:26:"privacy:metadata:memcached";s:164:"The Memcached cachestore plugin stores data briefly as part of its caching functionality. This data is stored on an Memcache server where data is regularly removed.";s:31:"privacy:metadata:memcached:data";s:36:"The various data stored in the cache";s:6:"prefix";s:17:"Khóa tiền tố";s:11:"prefix_help";s:313:"Nó có thể được dùng để tạo một "miền" cho các khóa mục của bạn nhằm cho phép tạo nhiều bộ lưu trữ memcached trên một bản cài memcached đơn thuần. Nó không thể dài hơn 16 ký tự nhằm đảm bảo không mắc phải các vấn đề về độ dài khóa .";s:13:"prefixinvalid";s:73:"Tiền tố không hợp lệ. Bạn chỉ có thể dùng a-z A-Z 0-9-_.";s:19:"serialiser_igbinary";s:28:"Bộ chuyển hóa igbinary.";s:15:"serialiser_json";s:24:"Bộ chuyển hóa JSON.";s:14:"serialiser_php";s:37:"Bộ chuyển hóa PHP mặc định.";s:7:"servers";s:15:"Các máy chủ";s:12:"servers_help";s:641:"Nó đặt các máy chủ được ưu hóa bởi bộ tiếp hợp memcached này.
+Các máy chủ nên được định nghĩa trên mỗi dòng và bao gồm địa chỉ máy chủ, và cổng, độ khối tùy ý.
+Nếu không cung cấp cổng thì cổng mặc định (11211) được dùng.
+
+Ví dụ:
+<pre>
+server.url.com
+ipaddress:port
+servername:port:weight
+</pre>
+
+Nếu *Kích hoạt chuỗi máy chủ* được kích hoạt bên dưới, phải có duy nhất một máy chủ được liệt kê ở đây. Thường thường nó sẽ là tên luôn luôn phân giải máy chủ cục bộ, như 127.0.0.1 hay localhost.";s:21:"serversclusterinvalid";s:82:"Ít nhất một máy chủ được yêu cầu khi chuỗi được kích hoạt.";s:10:"setservers";s:22:"Đặt các máy chủ";s:15:"setservers_help";s:572:"Đây là danh sách máy chủ sẽ được cập nhật khi dữ liệu bị sửa đổi trong bộ đệm. Thông thường tên đầy đủ của mỗi máy chủ trong bể.
+Nó **phải** bao gồm máy chủ được liệt kê trong *Các máy chủ* bên trên, thậm chí là do tên máy chủ khác.
+Các máy chủ nên được định nghĩa trên mỗi dòng và bao gồm địa chỉ máy chủ, và cổng tùy ý.
+Nếu không cung cấp cổng thì cổng mặc định (11211) được dùng.
+
+Ví dụ:
+<pre>
+server.url.com
+ipaddress:port
+</pre>";s:22:"sessionhandlerconflict";s:259:"Cảnh báo: Một thực thể memcache ({$a}) đang được thiết lập để sử dụng cùng máy chủ được memcache làm các phiên hoạt động. Xóa tất cả bộ đệm sẽ dẫn đến việc các phiên hoạt động cũng bị xóa.";s:11:"testservers";s:25:"Thử nghiệm máy chủ";s:16:"testservers_desc";s:293:"Một hay nhiều các chuỗi kết nối để các máy chủ memcache thử. Nếu một máy chủ thử nghiệm đã được chỉ định thì tốc độ memcache có thể được đánh giá dùng trang hiệu năng bộ đệm trong khối quản trị.
+Ví dụ: 127.0.0.1:11211";s:14:"usecompression";s:16:"Sử dụng nén";s:19:"usecompression_help";s:286:"Kích hoạt hay vô hiệu hóa nén lượng tải. Khi được kích hoạt, các giá trị mục dài hơn một ngưỡng nhất định (hiện tại là 100 bytes) sẽ được nén trong quá trình lưu trữ và được giải nén trong lúc lấy một cách âm thầm.";s:13:"useserialiser";s:29:"Sử dụng bộ chuỗi hóa";s:18:"useserialiser_help";s:364:"Chỉ định bộ chuyển hóa dùng để chuyển hóa các giá trị không đơn thuần.
+Các bộ chuyển hóa hợp lệ là Memcached::SERIALIZER_PHP hay Memcached::SERIALIZER_IGBINARY.
+Cái sau chỉ được hỗ trợ khi memcached được thiết lập với lựa chọn --enable-memcached-igbinary và trình mở rộng igbinary được nạp.";s:21:"upgrade200recommended";s:366:"We recommend you upgrade your Memcached PHP extension to version 2.0.0 or greater.
+The version of the Memcached PHP extension you are currently using does not provide the functionality Moodle uses to ensure a sandboxed cache. Until you upgrade we recommend you do not configure any other applications to use the same Memcached servers as Moodle is configured to use.";}
